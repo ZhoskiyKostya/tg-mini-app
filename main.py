@@ -3,6 +3,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Enable logging
 logging.basicConfig(
