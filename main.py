@@ -1,6 +1,8 @@
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
+from dotenv import load_dotenv
+import os
 
 # Enable logging
 logging.basicConfig(
@@ -10,7 +12,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Your bot token from @BotFather
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = os.getenv("TOKEN")
 # Your Mini App URL (where you host the HTML)
 MINI_APP_URL = "https://your-domain.com"  # Replace with your actual URL
 
