@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 # Your bot token from @BotFather
 BOT_TOKEN = os.getenv("TOKEN")
 # Your Mini App URL (where you host the HTML)
-MINI_APP_URL = "https://your-domain.com"  # Replace with your actual URL
+MINI_APP_URL = "https://zhoskiykostya.github.io/tg-mini-app/"  # Replace with your actual URL
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
